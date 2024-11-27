@@ -6,7 +6,7 @@ body{
     margin: 0;
 }
 nav{
-    background-color: #c0b66c;
+    background-color: #957D58;
     height: 15vh;
     display: flex;
     justify-content: space-between;
@@ -44,16 +44,118 @@ nav{
     color: white;
     text-decoration: none;
 }
+.panier .active .panier{
+    color: #957D58;
+}
 .ancre .active{
-    color: #ae262b;
+    color: #957D58;
 } 
 .ancre a:hover{
     color: wheat;
 }
 section{
-    max-height: 100vh;
-    box-sizing: border-box;
+    height: 100vh;
 }
+
+/* Page : Accueil - section 1 */
+.sec_1{
+    background-image: url("../Image/blacksmith-1412-x-900-wallpaper-tu6f9hxp7vjcrblm.jpg");
+    color: white;
+}
+.sec_1 h2{
+    margin-top: 0;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.sec_1 .content_sec_1{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+
+/* Page : Accueil - section 2 */
+.sec_2{
+    background-color: #957D58;
+}
+.sec_2 .Image_outils{
+    display: flex;
+    justify-content: center;
+    height: 681px;
+    width: 1024px;
+    background-image: url("../Image/Capture\ d\'écran\ 2024-11-26\ 102933.png");
+}
+.outils_savoir_plus{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+}
+.outils_savoir_plus a{
+    width: 20%;
+    height: 7vh;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    color: #c0b66c;
+    background-color: #610009;
+}
+.outils_savoir_plus .savoir_plus{
+    height: 7vh;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #610009;
+    color: #c0b66c;
+}
+.outils_savoir_plus .savoir_plus p{
+    font-size: 16px;
+}
+/* Page : Accueil - section 3 */
+.sec_3{
+    background-color: grey;
+}
+.sec_3 .content_sec_3{
+    height: 60vh;
+    text-align: center;
+}
+.sec_3 h2{
+    margin-top: 0;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.sec_3 .content_sec_3 .formulaire_newsletter{
+    width: 100%;
+}
+.sec_3 .content_sec_3 .formulaire_newsletter #Newsletter{
+    width: 59%;
+}
+.sec_3 .content_sec_3 .formulaire_newsletter button{
+    width: 60%;
+    background-color: #ffffff;
+    color: #610009;
+    border: 2px #610009;
+}
+.sec_3 .content_sec_3 .formulaire_newsletter button:hover{
+    background-color: #610009;
+    color: #c0b66c;
+}
+/* Page : Accueil - section 3 -- Footer*/
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer h3{
+    margin-top: 0;
+    padding-top: 20px;
+}
+footer .politique_footer{
+    width: 100%;
+    display: flex;
+    justify-items: space-around;
+}
+
+
 section img{
     width: 100%;
     margin: 0;
@@ -79,38 +181,4 @@ section img{
 .outils p, .outils ol li{
     color:#c0b66c;
 }
-.outils_savoir_plus{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-.outils_savoir_plus a{
-    width: 20%;
-    height: 7vh;
-    text-align: center;
-    align-content: center;
-    border-radius: 10px;
-    color: #c0b66c;
-    background-color: #610009;
-}
-.outils_savoir_plus .savoir_plus{
-    height: 7vh;
-    width: 100%;
-    border-radius: 10px;
-    background-color: #610009;
-    color: #c0b66c;
-    /* border: none; */
-}
-.outils_savoir_plus .savoir_plus p{
-    font-size: 16px;
-}
-.sec_3{
-    background-color: grey;
-}
-.sec_3 div{
-    height: 60vh;
-}
-footer{
-    height: 40vh;
-    background-color: black;
-}
+
